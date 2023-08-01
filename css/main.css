@@ -1,0 +1,65 @@
+body {
+    background: #111;
+    color: white;
+}
+  
+.cinema {
+    padding-top: 60px;
+    width: 600px;
+    margin: auto;
+}
+
+table {
+    border-collapse:separate;
+    border-spacing: 10px;
+}
+
+.cell {
+    width: 35px;
+    height: 50px;
+    border-radius: 7px;
+    /* border: 1px solid gray; */
+}
+.seat {
+    background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+    cursor: pointer;
+}
+
+.selected {
+    background: linear-gradient(to top,  black, orange);
+}
+.booked {
+    background: linear-gradient(to top,  black,  rgb(97, 95, 95));
+}
+.seat.booked:hover {
+    background: linear-gradient(to top,  black, gray);
+    cursor: not-allowed;
+}
+
+.popup {
+    background-color: orange;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 10px 5px rgb(242, 192, 99);
+}
+.close{
+    margin-left: auto;
+    display: block;
+}
+.highlight{
+  background:lawngreen
+
+}
+.book-seat{
+    border-radius: 20px;
+    width: 100%;
+
+}
+h1{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgrey;
+}
